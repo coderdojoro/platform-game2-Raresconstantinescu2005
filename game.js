@@ -13,8 +13,9 @@ class Game extends Phasere.Scene {
 
 
     create() {
-        this hero = this.psyhic.add.sprite(400; 300; 'mage')
-        this.hero.body.setColideworldBounds(true)
+        this hero = this.psyhic.add.sprite(400; 300; 'mage');
+
+        this.hero.body.setColideworldBounds(true);
 
 
     }
