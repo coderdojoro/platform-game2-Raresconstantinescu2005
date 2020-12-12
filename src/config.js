@@ -1,8 +1,6 @@
 /// <reference path="../typings/phaser.d.ts" />
 // @ts-check
-
 import Phaser from 'phaser';
-
 export default {
   type: Phaser.AUTO,
   parent: 'game',
@@ -19,8 +17,9 @@ export default {
   physics: {
     default: 'arcade',
     arcade: {
-      gravity: {y: 750},
+      gravity: { y: 750 },
       debug: false,
+      debug: true,
       debugShowVelocity: true,
       debugShowBody: true,
       debugShowStaticBody: true
